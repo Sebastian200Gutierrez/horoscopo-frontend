@@ -28,7 +28,7 @@ function Form({callback}){
     }
     return (
         <form onSubmit={validateUser}>
-            <h1 id="txtBienvenida">Bienvenido a nuestro portal del Zodiaco SEBAS ES GAY</h1>
+            <h1 id="txtBienvenida">Bienvenido a nuestro portal del Zodiaco</h1>
             <h4 className="txt">Nombre de Usuario</h4>  
             <input type="text" className="entry" onChange={(e)=> setUsername(e.target.value)}/><br></br>
             <h4 className="txt">Contraseña</h4>  
